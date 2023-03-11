@@ -1,6 +1,6 @@
 ## Behavioural evidence of suppression-induced forgetting and its interaction with psychological traits
 
-This paper/manuscript consists of two studies: Study 1 replicated the [Think/No-Think paradigm](https://www.nature.com/articles/35066572) and Study 2 examined its interaction with psychological traits.
+This repo is intended for the paper/manuscript that consists of two studies: Study 1 replicated the [Think/No-Think paradigm](https://www.nature.com/articles/35066572) and Study 2 examined its interaction with psychological traits.
 
 The raw data for Study 1 is not publicly available due to ethical concerns, but the summary statistics and analyses are presented within this repository.
 
