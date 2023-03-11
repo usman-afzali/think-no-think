@@ -10,10 +10,13 @@ The raw data for Study 1 is not publicly available due to ethical concerns, but 
 
 Study 2 was [prergistered](https://osf.io/zdb8u). The data will be made publicly available and all analyses will be added to this repository.
 
-The histograms of extreme values in Study 2 are displayed below.
+The needed visuals (such as the `Histograms` below can also be found within this repo.)
 
 ![Histograms](trait_plots.png)
 
 #### Python code for data processing
-In the Think/No-Think task, we compare the memory of pre-manipulation memorised words with after manipulation. This specific python [code](https://github.com/usman-afzali/Think-No-Think) was used for processing.
+In the Think/No-Think task, we compare the memory of pre-manipulation memorised words with after manipulation. This specific python [code]() was used for processing.
 
+If you have any questions, please contact me or create an issue.
+
+Contact: [www.usmanafzali.com ](https://www.usmanafzali.com)
