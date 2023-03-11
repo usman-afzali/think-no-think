@@ -58,6 +58,3 @@ Save both plots on the same plate
 plt1 + plt2
 ggsave("figures/trait_plots.png", width=12, height=5)
 ```
-
-
-
