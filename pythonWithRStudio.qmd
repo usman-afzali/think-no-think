@@ -32,3 +32,5 @@ virtualenv_install(envname = "my_python", "openpyxl", ignore_installed = FALSE, 
 ```
 
 Now, we can run python on R. If any further libraries are needed, they need to be installed as above.
+
+This video can be used for further help: <https://youtu.be/wEC1BCWe1_I>
