@@ -1,0 +1,34 @@
+---
+title: "Python with R Studio"
+author: "Usman Afzali"
+format: html
+---
+
+## Preparation
+We need to install `reticulate` and activate it.
+
+```{r}
+library(reticulate)
+```
+
+Since python is already installed, create a virtual environment here.
+
+```{r}
+use_virtualenv("my_python", required = TRUE)
+```
+
+Use the following code to install python libraries.
+
+**Pandas**
+
+```{r}
+virtualenv_install(envname = "my_python", "pandas", ignore_installed = FALSE, pip_options = character())
+```
+
+**Open Excel with Python**
+
+```{r}
+virtualenv_install(envname = "my_python", "openpyxl", ignore_installed = FALSE, pip_options = character())
+```
+
+Now, we can run python on R. If any further libraries are needed, they need to be installed as above.

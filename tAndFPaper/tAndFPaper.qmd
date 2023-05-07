@@ -68,7 +68,7 @@ affiliations:
     country: New Zealand
     postal-code: 8041             
 abstract: |
-  During the past two decades, Anderson and colleagues continuously reported significant No-Think suppression effect - also known as suppression-induced forgetting - with behavioural as well as neurophysiological studies. Notwithstanding, many researchers, including Wessel et al.  (2020. A multiverse analysis of early attempts to replicate memory suppression with the Think/No-think Task, . 870-887) reported failed replications of this effect. Here, we report two studies examining the Think/No-Think paradigm. In Study 1 ($N = 46$) we report significant suppression-induced forgetting effect despite a smaller frequency of suppression attempts (compared to Anderson) as a result of \textit{behavioural only} experiments. In the pre-registered Study 2, we examined the Think/No-Think paradigm in relation to psychological traits: obsessive compulsive disorder and post-traumatic stress disorder. In Study 2, after screening $N = 367$ subjects, we recruited the highest and lowest scorers on Yale-Brown Obsessive Compulsive Scale and PTSD-CheckList - Civilian Version scale ($N = 75$) employing the Think/No-Think paradigm . Overall, we report successful suppression-induced forgetting effect, and that the low trait scorers were relatively more capable of forgetting unwanted memories than the high trait scorers. In addition, our studies demonstrate opposing patterns of the Think manipulation effect with respect to the type of testing with the original cue versus an independent cue, suggestive of the cognitive bias, \textit{functional fixedness}.
+  During the past two decades, Anderson and colleagues continuously reported significant No-Think suppression effect - also known as suppression-induced forgetting - with behavioural as well as neurophysiological studies. Notwithstanding, many researchers, including Wessel et al. (2020. A multiverse analysis of early attempts to replicate memory suppression with the Think/No-think Task, _Memory, 28_(7). 870-887) reported failed replications of this effect. Here, we report two studies examining the Think/No-Think paradigm. In Study 1 ($N = 46$) we report significant suppression-induced forgetting effect despite a smaller frequency of suppression attempts (compared to Anderson) as a result of _behavioural only_ experiments. In the pre-registered Study 2, we examined the Think/No-Think paradigm in relation to psychological traits: obsessive compulsive disorder and post-traumatic stress disorder. After screening $N = 367$ subjects for Study 2, we recruited the highest and lowest scorers on Yale-Brown Obsessive Compulsive Scale and PTSD-CheckList - Civilian Version scale ($N = 75$) employing the Think/No-Think paradigm . Overall, we report successful suppression-induced forgetting effect, and that the low trait scorers were relatively more capable of forgetting unwanted memories than the high trait scorers. In addition, our studies demonstrate opposing patterns of the Think manipulation effect with respect to the type of testing with the original cue versus an independent cue, suggestive of the cognitive bias, _functional fixedness_.
 keywords: 
   - Suppression-induced forgetting
   - unwanted memories
@@ -82,7 +82,7 @@ bibliography: bibliography.bib
 
 # Introduction {#sec-intro}
 
-This is an example of how to use this template to render journal articles. This template is inspired by the Taylor and Francis rticles template for rmarkdown, repurposed for the Quarto publishing system.
+In the past, considerable research has taken place on passive mechanisms of forgetting such as decay over time and changed associations between memory traces in the brain [@anderson2004; @anderson2014]. Another passive mechanism of forgetting pertains to interference from cluttering of many similar events in memory [@anderson2003] resulting in limited access to a certain memory overtime. These mechanisms, however, neglected motivated and deliberate attempts of memory suppression employed to push unwanted troubling memories from consciousness when reminded [@anderson2014]. People often engage in active and motivated forgetting when reminded of troubling experiences rather than waiting for passive forgetting to take place [@anderson2014; @anderson2003; @benoit2012]. These active and deliberate attempts could be employed during memory encoding or memory retrieval. If attempted during memory encoding, it would prevent memory consolidation and memory formation. If motivated forgetting is attempted during retrieval of unwanted memories, it would stop the automatic association between memory reminders and the resultant unwanted memories, known as \\emph{retrieval suppression} \\citep{anderson_neural_2014}. Research has shown that attempting deliberate retrieval suppression when someone is being reminded of unwanted memories led to difficulty accessing these memories in the future \\citep{green_suppressing_2001, benoit_opposing_2012, levy_individual_2008, anderson_rethinking_2003}. These deliberate attempts form the basis of the Think/No-Think (T/NT) paradigm. With the T/NT paradigm, it has also been shown that actively stopping a behavioural response to an unwanted item by control mechanisms can result in its temporary amnesia in a subsequent recall test even if recollection is desired \\citep{green_suppressing_2001, levy_individual_2008}. T/NT is commonly employed to investigate whether people can suppress unwanted memories and the degree to which such suppression can affect subsequent recall.
 
 This quarto extension format supports PDF and HTML outputs. This template is primarily focused on generating acceptable {{< latex >}} outputs from Quarto, but renders an acceptable HTML output using the standard Quarto options.
 
@@ -120,61 +120,61 @@ This section of the template is adapted from [Quarto's documentation on Markdown
 
 ## Text Formatting
 
-+----------------------------------+-------------------------------+
-| Markdown Syntax                  | Output                        |
-+==================================+===============================+
-| ```                              | *italics* and **bold**        |
-| *italics* and **bold**           |                               |
-| ```                              |                               |
-+----------------------------------+-------------------------------+
-| ```                              | superscript^2^ / subscript~2~ |
-| superscript^2^ / subscript~2~    |                               |
-| ```                              |                               |
-+----------------------------------+-------------------------------+
-| ```                              | ~~strikethrough~~             |
-| ~~strikethrough~~                |                               |
-| ```                              |                               |
-+----------------------------------+-------------------------------+
-| ```                              | `verbatim code`               |
-| `verbatim code`                  |                               |
-| ```                              |                               |
-+----------------------------------+-------------------------------+
++---------------------------------+-------------------------------+
+| Markdown Syntax                 | Output                        |
++=================================+===============================+
+| ```                             | *italics* and **bold**        |
+| *italics* and **bold**          |                               |
+| ```                             |                               |
++---------------------------------+-------------------------------+
+| ```                             | superscript^2^ / subscript~2~ |
+| superscript^2^ / subscript~2~   |                               |
+| ```                             |                               |
++---------------------------------+-------------------------------+
+| ```                             | ~~strikethrough~~             |
+| ~~strikethrough~~               |                               |
+| ```                             |                               |
++---------------------------------+-------------------------------+
+| ```                             | `verbatim code`               |
+| `verbatim code`                 |                               |
+| ```                             |                               |
++---------------------------------+-------------------------------+
 
 ## Headings {#headings}
 
-+--------------------+----------------------------------+
-| Markdown Syntax    | Output                           |
-+====================+==================================+
-| ```                | # Header 1 {.heading-output}     |
-| # Header 1         |                                  |
-| ```                |                                  |
-+--------------------+----------------------------------+
-| ```                | ## Header 2 {.heading-output}    |
-| ## Header 2        |                                  |
-| ```                |                                  |
-+--------------------+----------------------------------+
-| ```                | ### Header 3 {.heading-output}   |
-| ### Header 3       |                                  |
-| ```                |                                  |
-+--------------------+----------------------------------+
++-------------------+---------------------------------+
+| Markdown Syntax   | Output                          |
++===================+=================================+
+| ```               | # Header 1 {.heading-output}    |
+| # Header 1        |                                 |
+| ```               |                                 |
++-------------------+---------------------------------+
+| ```               | ## Header 2 {.heading-output}   |
+| ## Header 2       |                                 |
+| ```               |                                 |
++-------------------+---------------------------------+
+| ```               | ### Header 3 {.heading-output}  |
+| ### Header 3      |                                 |
+| ```               |                                 |
++-------------------+---------------------------------+
 
 ## Equations
 
 Use `$` delimiters for inline math and `$$` delimiters for display math. For example:
 
-+------------------------------+-------------------------+
-| Markdown Syntax              | Output                  |
-+==============================+=========================+
-| ```                          | inline math: $E=mc^{2}$ |
-| inline math: $E = mc^{2}$    |                         |
-| ```                          |                         |
-+------------------------------+-------------------------+
-| ```                          | display math:\          |
-| display math:                | $$E = mc^{2}$$          |
-|                              |                         |
-| $$E = mc^{2}$$               |                         |
-| ```                          |                         |
-+------------------------------+-------------------------+
++-----------------------------+-------------------------+
+| Markdown Syntax             | Output                  |
++=============================+=========================+
+| ```                         | inline math: $E=mc^{2}$ |
+| inline math: $E = mc^{2}$   |                         |
+| ```                         |                         |
++-----------------------------+-------------------------+
+| ```                         | display math:\          |
+| display math:               | $$E = mc^{2}$$          |
+|                             |                         |
+| $$E = mc^{2}$$              |                         |
+| ```                         |                         |
++-----------------------------+-------------------------+
 
 If assigned an ID, display math equations will be automatically numbered:
 
@@ -187,43 +187,43 @@ $$ {#eq-black-scholes}
 
 ## Other Blocks
 
-+----------------------------+--------------------------+
-| Markdown Syntax            | Output                   |
-+============================+==========================+
-| ```                        | > Blockquote             |
-| > Blockquote               |                          |
-| ```                        |                          |
-+----------------------------+--------------------------+
-| ```                        | | Line Block             |
-| | Line Block               | |    Spaces and newlines |
-| |   Spaces and newlines    | |    are preserved       |
-| |   are preserved          |                          |
-| ```                        |                          |
-+----------------------------+--------------------------+
++---------------------------+--------------------------+
+| Markdown Syntax           | Output                   |
++===========================+==========================+
+| ```                       | > Blockquote             |
+| > Blockquote              |                          |
+| ```                       |                          |
++---------------------------+--------------------------+
+| ```                       | | Line Block             |
+| | Line Block              | |    Spaces and newlines |
+| |   Spaces and newlines   | |    are preserved       |
+| |   are preserved         |                          |
+| ```                       |                          |
++---------------------------+--------------------------+
 
 ## Cross-references {#sec-crf}
 
 ![A sunflower](sunflower.png){#fig-sunflower}
 
-+-------------------------------------+---------------------------------+
-| Markdown Format                     | Output                          |
-+=====================================+=================================+
-| ```                                 | @fig-sunflower is pretty.       |
-| @fig-sunflower is pretty.           |                                 |
-| ```                                 |                                 |
-+-------------------------------------+---------------------------------+
-| ```                                 | @tbl-glm was created from code. |
-| @tbl-glm was created from code.     |                                 |
-| ```                                 |                                 |
-+-------------------------------------+---------------------------------+
-| ```                                 | @sec-crf is this section.       |
-| @sec-crf is this section.           |                                 |
-| ```                                 |                                 |
-+-------------------------------------+---------------------------------+
-| ```                                 | @eq-black-scholes is above.     |
-| @eq-black-scholes is above.         |                                 |
-| ```                                 |                                 |
-+-------------------------------------+---------------------------------+
++------------------------------------+---------------------------------+
+| Markdown Format                    | Output                          |
++====================================+=================================+
+| ```                                | @fig-sunflower is pretty.       |
+| @fig-sunflower is pretty.          |                                 |
+| ```                                |                                 |
++------------------------------------+---------------------------------+
+| ```                                | @tbl-glm was created from code. |
+| @tbl-glm was created from code.    |                                 |
+| ```                                |                                 |
++------------------------------------+---------------------------------+
+| ```                                | @sec-crf is this section.       |
+| @sec-crf is this section.          |                                 |
+| ```                                |                                 |
++------------------------------------+---------------------------------+
+| ```                                | @eq-black-scholes is above.     |
+| @eq-black-scholes is above.        |                                 |
+| ```                                |                                 |
++------------------------------------+---------------------------------+
 
 See the [Quarto documentation on cross-references for more](https://quarto.org/docs/authoring/cross-references.html).
 
@@ -285,17 +285,17 @@ Quarto uses the standard Pandoc markdown representation for citations. Here are 
 
 You can also write in-text citations, as follows:
 
-+----------------------------------+-------------------------------+
-| Markdown Format                  | Output                        |
-+==================================+===============================+
-| ```                              | @knuth1984 says blah.         |
-| @knuth1984 says blah.            |                               |
-| ```                              |                               |
-+----------------------------------+-------------------------------+
-| ```                              | @knuth1984 [p. 33] says blah. |
-| @knuth1984 [p. 33] says blah.    |                               |
-| ```                              |                               |
-+----------------------------------+-------------------------------+
++---------------------------------+-------------------------------+
+| Markdown Format                 | Output                        |
++=================================+===============================+
+| ```                             | @knuth1984 says blah.         |
+| @knuth1984 says blah.           |                               |
+| ```                             |                               |
++---------------------------------+-------------------------------+
+| ```                             | @knuth1984 [p. 33] says blah. |
+| @knuth1984 [p. 33] says blah.   |                               |
+| ```                             |                               |
++---------------------------------+-------------------------------+
 
 See the [Pandoc Citations](https://pandoc.org/MANUAL.html#citations) documentation for additional information on citation syntax.
 

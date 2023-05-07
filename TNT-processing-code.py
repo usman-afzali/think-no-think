@@ -9,7 +9,7 @@ import pandas as pd
 #read the excel sheet after it's been uploaded to this python file's location.
 #a sample Excel sheet (sample.xlsx) is provided in this repository.
 
-df = pd.read_excel(r'folder location from computer\sample.xlsx', sheet_name='Sheet1')
+df = pd.read_excel('sample.xlsx', sheet_name='Sheet1', sheet_name='Sheet1')
 
 #get the index of the SP and IP columns so they can be read by the code
 sp_index = df.columns.get_loc('SP')
